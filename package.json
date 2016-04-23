@@ -1,0 +1,16 @@
+{
+  "name": "pussy-avatar",
+  "version": "0.1.0",
+  "description": "Webextension to replace github avatars with pussy",
+  "main": "pussy-avatar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/gulp"
+  },
+  "author": "Sunny <me@darkowlzz.space> (darkowlzz)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0"
+  }
+}

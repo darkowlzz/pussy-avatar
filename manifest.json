@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "pussy-avatar",
+  "version": "0.1",
+
+  "description": "Replace original github avatars with pussy",
+
+  "applications": {
+    "gecko": {
+      "id": "pussy-avatar@darkowlzz.space",
+      "strict_min_version": "45.0.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["pussy-avatar.js"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "avatar.png"
+  ]
+}
